@@ -10,11 +10,10 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@paycom/ui": "^3.27.0",
     "@pixi/react": "^7.1.2",
     "@reduxjs/toolkit": "^2.6.0",
     "axios": "^1.8.1",
-    "next": "15.1.7",
+    "next": "^15.2.4",
     "pixi.js": "^7.4.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",

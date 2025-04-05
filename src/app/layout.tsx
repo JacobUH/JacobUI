@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import "../../resources/globals.css";
+import "../../resources/global.css";
 import StoreProvider from "./StoreProvider";
 
 const geistSans = Geist({
@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "JacobUI",
   description: "A bunch of small projects and ideas!",
-  icons: "icons/jacobUI.svg"
+  icons: "icons/jacobUI.svg",
 };
 
 export default function RootLayout({
@@ -31,7 +31,7 @@ export default function RootLayout({
           className={`${geistSans.variable} ${geistMono.variable} home-background antialiased overflow-hidden`}
         >
           <main>{children}</main>
-          </body>
+        </body>
       </html>
     </StoreProvider>
   );

@@ -76,21 +76,6 @@ export default function Home() {
         </a>
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://gitlab.paycomhq.com/users/jacob.rangel"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="icons/dev.svg"
-            alt="Dev icon"
-            width={16}
-            height={16}
-          />
-          Paycom Gitlab
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
           href="https://jacobuh.github.io/"
           target="_blank"
           rel="noopener noreferrer"
